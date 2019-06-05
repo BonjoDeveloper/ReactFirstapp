@@ -1,12 +1,17 @@
 {
   "name": "aplan",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "firebase": "^6.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-redux-firebase": "^2.2.6",
     "react-scripts": "3.0.1",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-firestore": "^0.8.0",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +33,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.5.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonjoDeveloper/aPlan.git"
+  },
+  "author": "example_user <example-user@example.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BonjoDeveloper/aPlan/issues"
+  },
+  "homepage": "https://github.com/BonjoDeveloper/aPlan#readme",
+  "keywords": []
 }
